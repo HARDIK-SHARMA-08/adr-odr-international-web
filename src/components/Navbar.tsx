@@ -1,5 +1,5 @@
-import { ArrowBigDown, Badge, BadgeCheckIcon, BuildingIcon, ChevronDown, ContactIcon, Globe, Globe2Icon, Map, MessageCircleHeart, ShieldAlert, UniversityIcon, WholeWord } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
+import { BadgeCheckIcon, BuildingIcon, ChevronDown, ContactIcon, Globe } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
